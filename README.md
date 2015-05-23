@@ -51,7 +51,7 @@ http://php.net/
 
 # The robots
 
-A robot is a Physical platform to run Client programs for Esmartlz Arena. 
+A robot is a Physical platform to run Client programs for Esmartlz Arena. The game is able to be simulated or played in a physical environment but every software must run in any robot platforms. Client programs can't run directly in a PC Plaform but is possible to use third parties as Cloud computing, CRAY servers, others.
 
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter6/docs/twoBritys.jpg)
 
