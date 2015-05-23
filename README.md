@@ -65,7 +65,7 @@ A basic configuration use a EV3 IR Sensor which detect in directed line of visio
 
 This sensor detects another robot because it has enabled a EV3 beacon.
 
-![ScreenShot](https://raw.githubusercontent.com/jabrena/Esmarlz_Arena_REST_API/master/docs/sensors/ev3/ev3_ir_beacon.jpg)
+![ScreenShot](https://raw.githubusercontent.com/jabrena/Esmarlz_Arena_REST_API/master/docs/sensors/ev3/ev3-ir-beacon.jpg)
 
 # The game
 
