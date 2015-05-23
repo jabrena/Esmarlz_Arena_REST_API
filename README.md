@@ -51,11 +51,21 @@ http://php.net/
 
 # The robots
 
-A robot is a Physical platform to run Client programs for Esmartlz Arena. The game is able to be simulated or played in a physical environment but every software must run in any robot platforms. Client programs can't run directly in a PC Plaform but is possible to use third parties as Cloud computing, CRAY servers, others.
+A robot is a Physical platform to run Client programs for Esmartlz Arena. The game is able to be simulated or played in a physical environment but every software must run in any robot platforms. Client programs can't run directly in a PC Plaform but it is possible to use third parties as Cloud computing, CRAY servers, others.
 
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter6/docs/twoBritys.jpg)
 
 The maximum dimension of a Robot is 20cm square. This measure is used determinate every cell in the grid.
+
+## Sensors
+
+A basic configuration use a EV3 IR Sensor which detect in directed line of vision an obstacle or another robot in 100 cm. (4 cells)
+
+![ScreenShot](https://raw.githubusercontent.com/jabrena/Esmarlz_Arena_REST_API/master/docs/sensors/ev3/ev3_ir_sensor.png)
+
+This sensor detects another robot because it has enabled a EV3 beacon.
+
+![ScreenShot](https://raw.githubusercontent.com/jabrena/Esmarlz_Arena_REST_API/master/docs/sensors/ev3/ev3_ir_beacon.jpg)
 
 # The game
 
