@@ -48,5 +48,16 @@ http://php.net/
     game/team/map/info
     game/teams/map/info
     game/history/replay
-    
+
+# The robots
+
+A robot is a Physical platform to run Client programs for Esmartlz Arena. 
+
+![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter6/docs/twoBritys.jpg)
+
+The maximum dimension of a Robot is 20cm square. This measure is used determinate every cell in the grid.
+
+# The game
+
+The game is designed as real time game using turns. If the robot in the period of time assigned doesn't send a command, the robot lost a turn. If the game detect that any robot doesn't send command in some turns, the game consider that the robot had some internal problem and this robot is not able to continue running in that game.
 
