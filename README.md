@@ -69,9 +69,15 @@ https://raw.githubusercontent.com/jabrena/Esmarlz_Arena_REST_API/master/docs/ev3
 
 ## Actuators
 
-The robots use different kind of actuators to move in the world but it is normal use EV3 large motors. Every robot can move 100 cm (5 cells)
+### Locomotion
+
+The robots use different kind of actuators to move in the world but it is normal use EV3 large motors. Every robot can move 200 cm (10 cells)
 
 https://raw.githubusercontent.com/jabrena/Esmarlz_Arena_REST_API/master/docs/ev3/actuators/ev3-large-motor.png
+
+### Arms
+
+In Esmarlz Arena, Robots incorporate virtual arms. Every turn, a robot is able to move and shoot in the same turn.
 
 # The game
 
