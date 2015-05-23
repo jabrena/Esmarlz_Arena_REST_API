@@ -61,11 +61,15 @@ The maximum dimension of a Robot is 20cm square. This measure is used determinat
 
 A basic configuration use a EV3 IR Sensor which detect in directed line of vision an obstacle or another robot in 100 cm. (4 cells)
 
-![ScreenShot](https://raw.githubusercontent.com/jabrena/Esmarlz_Arena_REST_API/master/docs/sensors/ev3/ev3_ir_sensor.png)
+https://raw.githubusercontent.com/jabrena/Esmarlz_Arena_REST_API/master/docs/sensors/ev3/ev3_ir_sensor.png
 
-This sensor detects another robot because it has enabled a EV3 beacon.
+Every robot incorporates a beacon to be detected by others.
 
-![ScreenShot](https://raw.githubusercontent.com/jabrena/Esmarlz_Arena_REST_API/master/docs/sensors/ev3/ev3-ir-beacon.jpg)
+https://raw.githubusercontent.com/jabrena/Esmarlz_Arena_REST_API/master/docs/sensors/ev3/ev3-ir-beacon.jpg
+
+## Actuators
+
+The robots use different kind of actuators to move in the world but it is normal use EV3 large motors. Every robot can move 100 cm (5 cells)
 
 # The game
 
