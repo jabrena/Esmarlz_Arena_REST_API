@@ -1,0 +1,10 @@
+{
+	"bananaTeam" : { 
+		"robot1" : "robot1",
+		"robot2" : "robot2",
+	},
+	"bananaTeam2" : { 
+		"robot1" : "robot1",
+		"robot2" : "robot2",
+	}
+}

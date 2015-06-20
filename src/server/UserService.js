@@ -18,4 +18,9 @@ UserService.prototype.login = function (user, pass) {
     return Promise.resolve(false);
 };
 
+//TODO: Pending discussion
+UserService.prototype.logout = function () {
+   return Promise.resolve(true);
+};
+
 module.exports = UserService;

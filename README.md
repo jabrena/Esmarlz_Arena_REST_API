@@ -5,21 +5,25 @@ http://www.esmarlz.com/
 # Esmarlz Arena REST API
 Esmarlz Arena REST API is a Open Source project to develop a REST API to be used for robots in the game Esmarlz Arena.
 
-The REST API is developed in a Internet Programming language PHP.
-http://php.net/
+The REST API is developed in a Node.js.
+https://nodejs.org/
 
 # REST API
 
-    user/create
-    user/update
-    user/remove
-    user/info
-    user/login
-    user/logout
+    userService/create
+    userService/update
+    userService/remove
+
+    userService/info
+    
+    userService/login
+    userService/logout
+
     user/team/create
     user/team/update
     user/team/remove
     user/team/info
+
     user/robot/create
     user/robot/update
     user/robot/remove
