@@ -1,0 +1,7 @@
+{        
+	"humanoid" : {
+        "name": "Humanoid",
+        "maxSpeed": 22.22,
+        "acceleration": 5
+    }
+}

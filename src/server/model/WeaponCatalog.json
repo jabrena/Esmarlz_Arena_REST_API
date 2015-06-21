@@ -1,0 +1,9 @@
+{
+    "plasma-rifle": {
+        "name": "Plasma Rifle",
+        "range": 2000,
+        "rounds": 100,
+        "damage": 200,
+        "precision": 60
+    }
+}
