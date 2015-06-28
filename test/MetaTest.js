@@ -7,7 +7,7 @@ var chai = require("chai"),
 
 
 
-describe.only("Meta test", function () {
+describe("Meta test", function () {
 
     it("Number with 17 digits doesn't distinguish a minor change", function () {
         var number = 1e17;
