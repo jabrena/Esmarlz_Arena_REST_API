@@ -9,8 +9,13 @@ var chai = require("chai"),
 
 describe.only("Meta test", function () {
 
-    it("paja 01", function () {
-        var number = 1e10;
+    it("Number with 17 digits doesn't distinguish a minor change", function () {
+        var number = 1e17;
         expect(number + 1.1).equal(number);
+    });
+
+    it("Number with 16 digits distinguish a minor change", function () {
+        var number = 1e16;
+        expect(number + 1.1).to.not.equal(number);
     });
 });
