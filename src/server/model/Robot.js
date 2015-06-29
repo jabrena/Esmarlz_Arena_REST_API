@@ -12,10 +12,12 @@ function Robot(name, chassis, weapons) {
     this.name = name;
     this.chassis = chassis;
     this.weapons = weapons;
-    this.speed = 0;
+    this.mass = 1000;
+    this.power = 0;
 }
 
-Robot.prototype.move = function (power) {
+//Apply forward thrust 
+Robot.prototype.setThrust = function (power) {
     this.power = power;
 };
 
@@ -26,7 +28,6 @@ Robot.prototype.turn = function (radians) {
 Robot.prototype.fire = function (radians, weaponIndex) {
 
 };
-
 
 
 function RobotBuilder() {

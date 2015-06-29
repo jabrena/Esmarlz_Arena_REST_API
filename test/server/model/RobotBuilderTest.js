@@ -3,14 +3,13 @@
 "use strict";
 
 var chai = require("chai"),
-    expect = require("chai").expect;
-
-chai.use(require("chai-as-promised"));
+    expect = require("chai").expect,
+    source = require("../helper").source;
 
 describe("Robot builder", function () {
-    var RobotBuilder = require("../../../src/server/model/Robot"),
-        ChassisCatalog = require("../../../src/server/model/ChassisCatalog"),
-        WeaponCatalog = require("../../../src/server/model/WeaponCatalog"),
+    var RobotBuilder = source("model/Robot"),
+        ChassisCatalog = source("model/ChassisCatalog"),
+        WeaponCatalog = source("model/WeaponCatalog"),
         DEFAULT_WEAPON = "plasma-rifle",
         DEFAULT_CHASSIS = "humanoid";
 
