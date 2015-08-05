@@ -1,26 +1,24 @@
-var express = require('express'),
-    app = express();
+/*jslint node: true*/
+"use strict";
 
-app.set('port', (process.env.PORT || 5000));
+var express = require('express');
+var app = express();
+app.use(express.static('public'));
+var http = require('http').Server(app);
+var io = require('socket.io')(http);
 
-app.get('/', function(request, response) {
-  response.send("hello");
+app.get('/', function(req, res) {
+    res.render('index.html');
 });
 
-app.listen(app.get('port'), function() {
-  console.log('Node app is running on port', app.get('port'));
-});
-
-var pg = require('pg');
-
-app.get('/db', function (request, response) {
-  pg.connect(process.env.DATABASE_URL, function(err, client, done) {
-    client.query('SELECT * FROM test_table', function(err, result) {
-      done();
-      if (err)
-       { console.error(err); response.send("Error " + err); }
-      else
-       { response.send(result.rows); }
-    });
+io.on('connection', function(socket){
+  socket.on('chat message', function(msg){
+    console.log('message: ' + msg);
+    io.emit('chat message', msg);
   });
-})
+});
+
+
+http.listen(3000, function(){
+  console.log('listening on *:3000');
+});

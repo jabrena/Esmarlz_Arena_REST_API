@@ -19,5 +19,5 @@ describe("User Service", function () {
         });
     });
 
-});
+}); 
 
